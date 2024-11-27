@@ -12,7 +12,7 @@ import {
 export default function Contacto() {
   const [isSheetOpen, setIsSheetOpen] = useState(false);
 
-  useEffect(() => {z
+  useEffect(() => {
     const handleScroll = () => {
       // Verifica si el usuario ha llegado al final de la página
       if (
