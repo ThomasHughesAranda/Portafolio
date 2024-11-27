@@ -2,7 +2,6 @@
 import { Button } from "@/components/ui/button";
 import Image from 'next/image';
 import perfil from '@/app/images/perfil.jpeg';
-import { Card, CardHeader, CardTitle, CardContent, CardFooter,CardDescription } from "@/components/ui/card";
 import Proyectos from "@/app/proyectos";
 import Contacto from "@/app/contacto"
 export default function Home() {

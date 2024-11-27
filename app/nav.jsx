@@ -4,7 +4,6 @@ import ModeToggle from "@/app/modeToggle"; // Asegúrate de tener el componente 
 import {
   Sheet,
   SheetContent,
-  SheetDescription,
   SheetHeader,
   SheetTitle,
   SheetTrigger,

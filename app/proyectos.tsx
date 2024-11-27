@@ -3,7 +3,7 @@ import chatbot from '@/app/images/chatbot.jpg';
 import copec from '@/app/images/copec.jpg';
 import mapler from '@/app/images/mapler.jpg';
 
-import { Card, CardHeader, CardTitle, CardContent, CardFooter,CardDescription } from "@/components/ui/card";
+import { Card, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 
 export default function Proyectos() {
     return (
