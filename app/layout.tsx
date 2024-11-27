@@ -34,11 +34,10 @@ export default function RootLayout({children,}: Readonly<{children: React.ReactN
           enableSystem
           disableTransitionOnChange
         >
-            
-              <main>
-                  <AppNavbar/>
-                  {children}
-              </main>
+          <main>
+              <AppNavbar/>
+              {children}
+          </main>
         </ThemeProvider>
       </body>
     </html>

@@ -3,12 +3,13 @@ import { Button } from "@/components/ui/button";
 import Image from 'next/image';
 import perfil from '@/app/images/perfil.jpeg';
 import Proyectos from "@/app/proyectos";
-import Contacto from "@/app/contacto"
+import Contacto from "@/app/contacto";
+import Education from "@/app/education"
 export default function Home() {
   return (
     <div>
       <div className="lg:border w-full lg:w-4/5 mx-auto  ">
-        <div className="mt-6 lg:mt-32 flex flex-col lg:flex-row items-center justify-center px-4 lg:px-0">
+        <div id="home" className="mt-6 lg:mt-32 flex flex-col lg:flex-row items-center justify-center px-4 lg:px-0">
           <Image
               src={perfil}
               alt="Foto de perfil de Thomas Alonso Hughes Aranda"
@@ -36,9 +37,7 @@ export default function Home() {
             </h1>
             <p className="text-base sm:text-lg font-light text-foreground lg:mr-32 text-justify mt-2 lg:mt-0 lg:px-0">
               Ingeniero en Ejecución Informática con formación integral, proactivo y con una actitud positiva hacia el trabajo en equipo. Me destaco por mi honestidad,
-              adaptabilidad y capacidad para liderar proyectos. Tengo una mentalidad orientada al aprendizaje continuo, lo que me
-              permite adquirir rápidamente nuevas habilidades y enfrentar desafíos con creatividad y determinación.
-              <br />
+              adaptabilidad y capacidad para liderar proyectos. 
               <br />
               Soy un profesional con capacidad para abordar análisis de procesos, 
               diseño de sistemas de software, atomatizacion de proccesos y analisis de
@@ -56,14 +55,21 @@ export default function Home() {
 
         
       </div>
-      <div className="border mt-24 ">
-      <h2 className="ml-24 mt-24 scroll-m-20  pb-2 text-5xl font-semibold tracking-tight first:mt-12 ">
+
+      <h2 id="projects" className="md:mt-32 mt-8 ml-2 md:ml-32 mb-4 md:mb-8 scroll-m-20  pb-2 text-5xl font-semibold tracking-tight  ">
           Proyectos
       </h2>
-      <Contacto/>
+     
+     
       <Proyectos/>
-      </div>
       
+      <h2 id="education" className="md:mt-32 mt-8 ml-2 md:ml-32 mb-4 md:mb-8 scroll-m-20  pb-2 text-5xl font-semibold tracking-tight  ">
+          Educación
+      </h2>
+        <Education/>
+      <div id="contact" >
+        <Contacto/>
+      </div>
     </div>
   </div>
   );

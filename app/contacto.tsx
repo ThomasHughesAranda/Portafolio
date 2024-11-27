@@ -12,7 +12,7 @@ import {
 export default function Contacto() {
   const [isSheetOpen, setIsSheetOpen] = useState(false);
 
-  useEffect(() => {
+  useEffect(() => {z
     const handleScroll = () => {
       // Verifica si el usuario ha llegado al final de la página
       if (
@@ -39,13 +39,13 @@ export default function Contacto() {
         <h1 className=" font-bold leading-tight tracking-tighter text-3xl sm:text-4xl md:text-5xl  mt-2 text-left ">Contacto</h1>
         <div></div>
         <div className="flex items-center mt-4">
-            <Phone className="text-2xl mr-2" />
-            <p className="text-lg">+56 975287098</p>
+            <Phone className=" mr-2 md:mr-4" />
+            <p className="text-md md:text-xl text-left">+56 975287098</p>
         </div>
          {/* LinkedIn */}
          <div className="flex items-center mt-4">
-            <Linkedin className="text-2xl mr-2 " />
-            <p className="text-lg">
+            <Linkedin className="mr-4" />
+            <p className="text-md md:text-xl text-left">
                 <a href="https://www.linkedin.com/in/thomas-hughes-b01652316" target="_blank" rel="noopener noreferrer" >
                     linkedin.com/in/thomas-hughes-b01652316
                 </a>
@@ -54,22 +54,22 @@ export default function Contacto() {
 
 
         <div className="flex items-center mt-4">
-            <Mail className="text-2xl mr-2" />
-            <p className="text-lg">thughesaranda@gmail.com</p>
+            <Mail className="mr-4" />
+            <p className="text-lg md:text-2xl text-left">thughesaranda@gmail.com</p>
         </div>
 
         {/* GitHub */}
         <div className="flex items-center mt-4">
-            <Github className="text-2xl mr-2 " />
-            <p className="text-lg">
+            <Github className="mr-4 " />
+            <p className="text-md md:text-xl text-left">
                 <a href="https://github.com/ThomasHughesAranda" target="_blank" rel="noopener noreferrer" >
                     github.com/ThomasHughesAranda
                 </a>
             </p>
         </div>
         <div className="flex items-center mt-4">
-            <MapPin className="text-2xl mr-2" />
-            <p className="text-lg">Villa alemana, Valparaíso</p>
+            <MapPin className=" mr-4 " />
+            <p className="text-left md:text-xl text-lg">Villa alemana, Valparaíso</p>
         </div>
         </div>
     </div>
