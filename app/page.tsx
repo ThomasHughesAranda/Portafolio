@@ -1,10 +1,13 @@
 
+"use client";
 import { Button } from "@/components/ui/button";
 import Image from 'next/image';
 import perfil from '@/app/images/perfil.jpeg';
 import Proyectos from "@/app/proyectos";
 import Contacto from "@/app/contacto";
-import Education from "@/app/education"
+import Education from "@/app/education";
+import Cardtest from "@/app/cardtest";
+
 export default function Home() {
   return (
     <div>
@@ -43,14 +46,17 @@ export default function Home() {
               diseño de sistemas de software, atomatizacion de proccesos y analisis de
               datos siempre con un enfoque en sustentabilidad, modernización, ética y competitividad.
             </p>
-            <div className="mt-8 flex justify-start space-x-4 ">
-              <Button variant="outline" className="ml-2 text-sm sm:text-xl lg:text-xl px-4 py-2 lg:px-8 lg:py-4">
-                Github
-              </Button>
-              <Button className="ml-2 text-sm sm:text-xl lg:text-xl px-4 py-2 lg:px-8 lg:py-4">
-                Linkedin
-              </Button>
+            <div className="mt-8 flex justify-start">
+            <a
+  href="cv/CvThomasHughes.pdf"
+  download="CvThomasHughes.pdf"
+  className="ml-2 text-sm sm:text-xl lg:text-xl px-4 py-2 lg:px-8 lg:py-4 bg-black dark:bg-white text-white dark:text-black rounded text-center"
+>
+Accede a Mi Curriculum
+</a>
+
             </div>
+
           </div>
 
         
@@ -67,9 +73,12 @@ export default function Home() {
           Educación
       </h2>
         <Education/>
+        <Cardtest/>
+        
       <div id="contact" >
         <Contacto/>
-      </div>
+      </div>  
+ 
     </div>
   </div>
   );
