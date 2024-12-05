@@ -73,7 +73,7 @@ Accede a Mi Curriculum
           Educación
       </h2>
         <Education/>
-        <Cardtest/>
+      
         
       <div id="contact" >
         <Contacto/>
