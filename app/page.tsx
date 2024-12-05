@@ -7,7 +7,7 @@ import Proyectos from "@/app/proyectos";
 import Contacto from "@/app/contacto";
 import Education from "@/app/education";
 import Cardtest from "@/app/cardtest";
-
+import { File } from 'lucide-react';
 export default function Home() {
   return (
     <div>
@@ -47,16 +47,15 @@ export default function Home() {
               datos siempre con un enfoque en sustentabilidad, modernización, ética y competitividad.
             </p>
             <div className="mt-8 flex justify-start">
-            <a
-  href="cv/CvThomasHughes.pdf"
-  download="CvThomasHughes.pdf"
-  className="ml-2 text-sm sm:text-xl lg:text-xl px-4 py-2 lg:px-8 lg:py-4 bg-black dark:bg-white text-white dark:text-black rounded text-center"
->
-Accede a Mi Curriculum
-</a>
-
+              <a
+                href="cv/CvThomasHughes.pdf"
+                download="CvThomasHughes.pdf"
+                className="ml-2 text-lg sm:text-xl lg:text-xl px-4 py-2 lg:px-8 lg:py-4 bg-black dark:bg-white text-white dark:text-black rounded text-left flex items-center gap-2"
+              >
+                <File className="w-5 h-5" /> {/* Tamaño del icono */}
+                Accede a mi curriculum
+              </a>
             </div>
-
           </div>
 
         
