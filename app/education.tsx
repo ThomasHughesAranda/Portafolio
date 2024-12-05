@@ -17,10 +17,10 @@ export default function Education() {
               className="rounded-lg w-32 h-auto"
             />
         
-            <code className="  rounded bg-muted scroll-m-20 text-xl  tracking-tight lg:text-xl  text-justify ">
+            <code className="  rounded bg-muted scroll-m-20 text-xl  tracking-tight lg:text-xl  text-left ">
                     2019-2024.
                     <br />
-                    Ingeniero de Ejecución en Informática. / Pontificia Universidad Católica de Valparaíso.
+                    Ingeniero de Ejecución en Informática de la Pontificia Universidad Católica de Valparaíso.
                 </code>
         
               <Image
@@ -28,10 +28,10 @@ export default function Education() {
               alt="img colegio"
               className="rounded-lg w-32 h-auto "
             />
-            <code className="rounded bg-muted scroll-m-20 text-xl  tracking-tight lg:text-xl  text-justify  ">
+            <code className="rounded bg-muted scroll-m-20 text-xl  tracking-tight lg:text-xl  text-left  ">
                   2018.
                     <br />
-                    Enseñanza básica y media. / Colegio Champagnat de Villa alemana.
+                    Enseñanza básica y media en Colegio Champagnat de Villa alemana.
                 </code>
           
 
