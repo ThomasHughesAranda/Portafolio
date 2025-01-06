@@ -24,15 +24,16 @@ const items = [
     icon: Folder,
   },
   {
-    title: "Contacto",
-    url: "#contact",
-    icon: Mail,
-  },
-  {
     title: "Educación",
     url: "#education",
     icon: GraduationCap,
   },
+  {
+    title: "Contacto",
+    url: "#contact",
+    icon: Mail,
+  },
+
 ];
 
 export function AppNavbar() {

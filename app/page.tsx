@@ -30,6 +30,7 @@ export default function Home() {
                 sm:w-2/3 sm:max-w-sm 
                 lg:w-full lg:max-w-md 
                 lg:ml-24"
+                style={{ filter: "grayscale(30%)" }}
           />
           <div className="text-center lg:text-left mt-6 lg:mt-0">
             <code className="relative rounded bg-muted px-[0.3rem] py-[0.2rem] font-mono text-lg sm:text-lg md:text-xl font-semibold ">
@@ -64,15 +65,18 @@ export default function Home() {
       <h2 id="projects" className="md:mt-32 mt-8 ml-2 md:ml-32 mb-4 md:mb-8 scroll-m-20  pb-2 text-5xl font-semibold tracking-tight  ">
           Proyectos
       </h2>
-     
-     
+
+      <div id="education" >
       <Proyectos/>
+      </div>
+
       
-      <h2 id="education" className="md:mt-32 mt-8 ml-2 md:ml-32 mb-4 md:mb-8 scroll-m-20  pb-2 text-5xl font-semibold tracking-tight  ">
+      <h2 className="md:mt-32 mt-8 ml-2 md:ml-32 mb-4 md:mb-8 scroll-m-20  pb-2 text-5xl font-semibold tracking-tight  ">
           Educación
       </h2>
-        <Education/>
-      
+      <Education/>
+
+
         
       <div id="contact" >
         <Contacto/>
