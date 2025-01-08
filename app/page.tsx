@@ -40,12 +40,11 @@ export default function Home() {
               Thomas Alonso Hughes Aranda
             </h1>
             <p className="text-base sm:text-lg font-light text-foreground lg:mr-32 text-justify mt-2 lg:mt-0 lg:px-0">
-              Ingeniero en Ejecución Informática con formación integral, proactivo y con una actitud positiva hacia el trabajo en equipo. Me destaco por mi honestidad,
-              adaptabilidad y capacidad para liderar proyectos. 
+              Ingeniero en Ejecución Informática con formación integral. Me caracterizo por mi honestidad, adaptabilidad y habilidad para liderar proyectos de manera colaborativa.
               <br />
               Soy un profesional con capacidad para abordar análisis de procesos, 
-              diseño de sistemas de software, atomatizacion de proccesos y analisis de
-              datos siempre con un enfoque en sustentabilidad, modernización, ética y competitividad.
+              desarrollo de sistemas de software, atomatizacion de proccesos y analisis de
+              datos siempre con un enfoque en la innovacion.
             </p>
             <div className="mt-8 flex justify-start">
               <a
