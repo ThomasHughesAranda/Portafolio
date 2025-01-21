@@ -27,7 +27,7 @@ export default function Proyectos() {
                 </code>
                 <CardTitle className="text-3xl font-extrabold text-white ">Copec</CardTitle>
                 <CardDescription>
-                <p className='scroll-m-20 text-xl  tracking-tight lg:text-xl text-white text-justify'>
+                <p className='scroll-m-20 text-xl  tracking-tight lg:text-xl text-white text-left'>
                     Proyecto de automatización de procesos industriales de la Planta de Lubricantes de Copec.
                 </p>
                 </CardDescription>
@@ -53,7 +53,7 @@ export default function Proyectos() {
                 </code>
                 <CardTitle className="text-3xl font-extrabold text-white">Mapler</CardTitle>
                 <CardDescription>
-                <p className='scroll-m-20 text-xl  tracking-tight lg:text-xl text-white text-justify'>
+                <p className='scroll-m-20 text-xl  tracking-tight lg:text-xl text-white text-left'>
                     Desarrollo de nuevas funcionalidades para Mapler, una startup respaldada por Corfo.
                 </p>
                 </CardDescription>

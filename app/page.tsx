@@ -42,6 +42,7 @@ export default function Home() {
             <p className="text-base sm:text-lg font-light text-foreground lg:mr-32 text-justify mt-2 lg:mt-0 lg:px-0">
               Ingeniero en Ejecución Informática con formación integral. Me caracterizo por mi honestidad, adaptabilidad y habilidad para liderar proyectos de manera colaborativa.
               <br />
+              <br />
               Soy un profesional con capacidad para abordar análisis de procesos, 
               desarrollo de sistemas de software, atomatizacion de proccesos y analisis de
               datos siempre con un enfoque en la innovacion.
