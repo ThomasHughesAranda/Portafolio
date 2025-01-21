@@ -75,7 +75,7 @@ export default function Proyectos() {
                 <code className="relative rounded bg-muted px-[0.3rem] py-[0.2rem] font-mono text-sm sm:text-base md:text-lg font-semibold ">
                     Febrero - Junio 2024.
                 </code>
-                <CardTitle className="text-3xl text-white">EleccionesBot</CardTitle>
+                <CardTitle className="text-3xl text-white">Proyecto de titulación </CardTitle>
                 <CardDescription>
                 <p className='scroll-m-20 text-xl  tracking-tight lg:text-xl text-white text-justify'>
                     Aplicación que utiliza modelos predictivos de lenguaje basados en inteligencia 
