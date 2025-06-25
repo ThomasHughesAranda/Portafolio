@@ -43,9 +43,7 @@ export default function Home() {
               Ingeniero en Ejecución Informática con formación integral. Me caracterizo por mi honestidad, adaptabilidad y habilidad para liderar proyectos de manera colaborativa.
               <br />
               <br />
-              Soy un profesional con capacidad para abordar análisis de procesos, 
-              desarrollo de sistemas de software, atomatizacion de proccesos y analisis de
-              datos siempre con un enfoque en la innovacion.
+              Soy un profesional con capacidad para abordar el análisis de procesos, el desarrollo de sistemas de software, la automatización de procesos y el análisis de datos, siempre con un enfoque en la innovación.
             </p>
             <div className="mt-8 flex justify-start">
               <a
