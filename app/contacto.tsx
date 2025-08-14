@@ -46,7 +46,7 @@ export default function Contacto() {
          <div className="flex items-center mt-4">
             <Linkedin className="mr-4" />
             <p className="text-md md:text-xl text-left">
-                <a href="https://www.linkedin.com/in/thomas-hughes-b01652316" target="_blank" rel="noopener noreferrer" >
+                <a href="www.linkedin.com/in/thomas-alonso-hughes-aranda-b01652316" target="_blank" rel="noopener noreferrer" >
                     linkedin.com/in/thomas-hughes-b01652316
                 </a>
             </p>

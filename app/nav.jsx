@@ -93,7 +93,7 @@ export function AppNavbar() {
         </Button>
 
         <Button  variant="outline" asChild className="flex items-center gap-2"size="icon">
-          <a href="https://www.linkedin.com/in/thomas-hughes-b01652316" target="_blank" rel="noopener noreferrer">
+          <a href="www.linkedin.com/in/thomas-alonso-hughes-aranda-b01652316" target="_blank" rel="noopener noreferrer">
             <Linkedin className="w-4 h-4"/>
           </a>
         </Button>
