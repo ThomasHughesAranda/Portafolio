@@ -29,7 +29,7 @@ export default function Education() {
               className="rounded-lg w-32 h-auto "
             />
             <code className="rounded bg-muted scroll-m-20 text-xl  tracking-tight lg:text-xl  text-left  ">
-                  2018.
+                  
                     <br />
                     Enseñanza básica y media en Colegio Champagnat de Villa alemana.
                 </code>
